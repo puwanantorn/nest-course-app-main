@@ -11,19 +11,20 @@ export class AppService {
   }
   getLove(): string{
     return 'some one';
-}
+  }
   getJson(): object {
     return{
     name: 'arigato',
     surname:'chadoteeprang',
-    age : 67
+    age : 67,
+    version : process.env.API_VERSION,
     };
-    }
-    getJson2() {
-  return {
+  }oiuyutyhjkl
+  getJson2() {
+    return {
     name: 'asda',
     lastname: 'awd',
     age: 67,
-  };
-}
+    };
+  }
 }
